@@ -1,0 +1,7 @@
+Live reception via RTLSDR dongle and send via ZMQ
+
+eti-cmdline-rtlsdr -D 5 -C 5B -Q | /home/pi/dab/eti-tools/eti2zmq -v -a -d -o "zmq+tcp://*:18081"
+
+
+Read .eti file via ZMQ
+ /home/pi/dab/eti-tools/eti2zmq -i /home/pi/dab/test.eti -l -a -d -o "zmq+tcp://*:18081"
