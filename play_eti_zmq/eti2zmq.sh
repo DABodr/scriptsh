@@ -1,6 +1,6 @@
 #!/bin/bash
 
- /home/$USER/dab/eti-tools/eti2zmq -i /home/$USER/Bureau/eti_vincent/SWR-RP_12122019_093906.eti -l -a -d -o "zmq+tcp://*:18081"
+ /home/$USER/dab/eti-tools/eti2zmq -i /home/$USER/dab/eti/SWR-RP_12122019_093906.eti -l -a -d -o "zmq+tcp://*:18081"
 
 #DR-Saarland_12122019_092914.eti
 #DR-Deutschland_12122019_092118.eti
